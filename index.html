@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niklas Väderapp</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/anime.min.js"></script>
+</head>
+
+<body>
+    <h1 id="titel">Välkommen till *MHI</h1>
+    <section id="main_container">
+        <label for="getWeather">Sök efter stad:</label>
+        <input id="getWeather" name="city" type="text" placeholder="Ex. Stockholm.." required>
+        <button type='submit' id="userSubmit"><i class="fa fa-search"></i>Sök</button>
+    </section>
+
+    <div id="loading">
+        <p>Hämtar väderinformation..
+            <progress value="0" max="100">
+            </progress>
+        </p>
+    </div>
+
+
+    <div id="resultat">
+        <div id="res_container">
+            <div id="img_container">
+                <img id="icon" src="" alt="">
+            </div>
+            <div id="p_container">
+                <p id="city_name"></p>
+                <p id="temp"></p>
+                <p id="wind"></p>
+                <p id="humidity"></p>
+                <p id="description"></p>
+            </div>
+        </div>
+    </div>
+    <div id="errorDiv">
+        <h1 id="errorNotice"></h1>
+    </div>
+
+
+    <div id="five_forecast">
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

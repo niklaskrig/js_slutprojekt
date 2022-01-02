@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#titel {
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    border-bottom: 1px solid black;
+    max-width: 350px;
+}
+
+#main_container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: Center;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+#res_container {
+    display: flex;
+    background: white;
+    width: 1000px;
+    margin-top: 100px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+
+
+}
+
+#img_container {
+    display: flex;
+    justify-content: center;
+}
+
+#p_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#p_container p {
+    padding: 20px;
+}
+
+#five_forecast {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    max-width: 800px;
+    padding: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+
+}
+
+#five_forecast div {
+    padding: 20px;
+    min-height: 350px;
+}
+
+#five_forecast p {
+    justify-content: center;
+    display: flex;
+}
+
+#errorDiv {
+    text-align: center;
+}
+
+
+
+#loadingAnime {
+    height: 40px;
+}
+
+button {
+    min-width: 50px;
+}
+
+#city_name {
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+#loading {
+    margin: auto;
+    display: block;
+    width: 1300px;
+    text-align: center;
+}
+
+#loading {
+    margin-top: 50px;
+    display: none;
+}
